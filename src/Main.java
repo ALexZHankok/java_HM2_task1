@@ -10,16 +10,14 @@ public class Main {
 
         if (isCustomer) {
             System.out.println((sumMileCust) + " мили начислено успешно.");
+        } else {
+            System.out.println((sumMileNotCust) + "Незарегистрированным пользователям бонусы не начисляются. Станьте участником бонусной программы прямо сейчас!");
         }
-
-        else{
-                System.out.println((sumMileNotCust) + "Незарегистрированным пользователям бонусы не начисляются. Станьте участником бонусной программы прямо сейчас!");
-            }
 
         if (ticketPrice < 20) {
             System.out.println("Сумма покупки мала.");
         }
 
-        }
-
     }
+
+}
